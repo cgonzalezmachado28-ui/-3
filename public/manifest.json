@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Dreamyland: El jardín de los sueños",
+  "short_name": "Dreamyland",
+  "description": "Explora mundos mágicos flotantes, adopta Dreamies, cultiva fresas pastel y decora tu casita en este juego 3D cutecore y pastelcore.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#fce7f3",
+  "background_color": "#fce7f3",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="100%" stop-color="#fbcfe8"/>
+    </radialGradient>
+    <linearGradient id="berryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle with safe zone margin -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#f472b6" stroke-width="8" stroke-dasharray="16 16"/>
+
+  <!-- Bunny Ears behind strawberry -->
+  <g transform="translate(256, 170)">
+    <!-- Left ear -->
+    <path d="M-60,0 C-85,-110 -25,-120 -20,0 Z" fill="#ffffff" stroke="#f472b6" stroke-width="6"/>
+    <path d="M-52,-15 C-70,-90 -30,-98 -28,-15 Z" fill="#fbcfe8"/>
+    <!-- Right ear -->
+    <path d="M60,0 C85,-110 25,-120 20,0 Z" fill="#ffffff" stroke="#f472b6" stroke-width="6"/>
+    <path d="M52,-15 C70,-90 30,-98 28,-15 Z" fill="#fbcfe8"/>
+  </g>
+
+  <!-- Giant Sweet Strawberry Body -->
+  <g transform="translate(256, 300)">
+    <path d="M0,-120 C140,-120 130,90 0,160 C-130,90 -140,-120 0,-120 Z" fill="url(#berryGrad)" stroke="#be123c" stroke-width="6"/>
+    
+    <!-- Seeds -->
+    <g fill="#fef08a">
+      <ellipse cx="-45" cy="-60" rx="6" ry="10" transform="rotate(-15 -45 -60)"/>
+      <ellipse cx="45" cy="-60" rx="6" ry="10" transform="rotate(15 45 -60)"/>
+      <ellipse cx="0" cy="-30" rx="6" ry="10"/>
+      <ellipse cx="-55" cy="10" rx="6" ry="10" transform="rotate(-10 -55 10)"/>
+      <ellipse cx="55" cy="10" rx="6" ry="10" transform="rotate(10 55 10)"/>
+      <ellipse cx="-25" cy="50" rx="5" ry="9" transform="rotate(-5 -25 50)"/>
+      <ellipse cx="25" cy="50" rx="5" ry="9" transform="rotate(5 25 50)"/>
+      <ellipse cx="0" cy="95" rx="5" ry="8"/>
+    </g>
+
+    <!-- Sweet Anime Eyes & Blush -->
+    <g fill="#2d1b2d">
+      <ellipse cx="-40" cy="-10" rx="14" ry="18"/>
+      <ellipse cx="40" cy="-10" rx="14" ry="18"/>
+      <circle cx="-44" cy="-16" r="5" fill="#ffffff"/>
+      <circle cx="36" cy="-16" r="5" fill="#ffffff"/>
+    </g>
+    <!-- Blush -->
+    <ellipse cx="-58" cy="12" rx="16" ry="8" fill="rgba(255, 255, 255, 0.4)"/>
+    <ellipse cx="58" cy="12" rx="16" ry="8" fill="rgba(255, 255, 255, 0.4)"/>
+    <!-- Cute smile -->
+    <path d="M-12,8 Q0,20 12,8" fill="none" stroke="#2d1b2d" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Green Leaves Calyx -->
+  <g transform="translate(256, 175)">
+    <path d="M0,0 C-30,-40 -80,-30 -85,15 C-50,10 -20,20 0,0 Z" fill="url(#leafGrad)"/>
+    <path d="M0,0 C30,-40 80,-30 85,15 C50,10 20,20 0,0 Z" fill="url(#leafGrad)"/>
+    <path d="M0,0 C-15,-50 15,-50 0,0 Z" fill="url(#leafGrad)"/>
+    <path d="M0,-10 C-5,-45 10,-45 0,-10 Z" fill="#15803d"/>
+  </g>
+
+  <!-- Magic Sparkles -->
+  <g fill="#facc15">
+    <path d="M100,120 Q120,120 120,100 Q120,120 140,120 Q120,120 120,140 Q120,120 100,120 Z"/>
+    <path d="M370,140 Q385,140 385,125 Q385,140 400,140 Q385,140 385,155 Q385,140 370,140 Z"/>
+    <path d="M410,340 Q425,340 425,325 Q425,340 440,340 Q425,340 425,355 Q425,340 410,340 Z"/>
+  </g>
+</svg>

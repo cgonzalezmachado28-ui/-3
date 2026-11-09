@@ -1,0 +1,6 @@
+{
+  "name": "Dreamyland: El jardín de los sueños",
+  "description": "Explora mundos mágicos flotantes, adopta Dreamies, cultiva fresas pastel, decora tu casita y descubre la misteriosa Forgotten Room en este juego 3D cutecore y pastelcore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
